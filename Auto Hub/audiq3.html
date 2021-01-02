@@ -1,0 +1,318 @@
+<html>
+  <head>
+    <title>Audi Q3</title>
+   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap" rel="stylesheet">
+    <style>
+      body {
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+      font-family: 'Manrope', sans-serif;
+      background:linear-gradient(#24c6dc,#514a9d);
+      }
+      #bg {
+        height: 1450px;
+        width: 100%;
+        object-fit: cover;
+        position: absolute; /* Change position to absolute if you don't want it to take up the whole page */
+        left: 0px;
+        top: 0px;
+        z-index: -1;
+        background-color: #1c1c1c;
+      }
+      #logo {
+        position: relative;
+        top: 10px;
+      }
+      #logo_top_bar {
+        background-color: white;
+        height: 100px;
+        width: 1800px;
+        margin-top: -7px;
+        margin-left: -7px;
+      }
+
+      #top_bar {
+        position: absolute;
+        left: 715px;
+        bottom: 645px;
+      }
+      nav {
+        width: 100%;
+        overflow: auto;
+      }
+      nav a {
+        width: 100px;
+        display: block;
+        padding: 20px 15px;
+        text-decoration: none;
+        font-family: Arial;
+        color: #f2f2f2;
+        text-align: center;
+      }
+
+      nav a:hover {
+        background: #eb3f3f;
+        transition: 0.5s;
+      }
+      ul {
+        padding: 0;
+        margin: 0 0 0 150px;
+        list-style: none;
+      }
+      li {
+        float: left;
+      }
+       #logo_img {
+        position: relative;
+        bottom: 8px;
+      }
+      #seller_info {
+        background: white;
+        height: 350px;
+        width: 450px;
+        position: relative;
+        left: 950px;
+        bottom: 295px;
+        border-style:solid;
+      }
+      #car_img {
+        background: white;
+        height: 470px;
+        width: 750px;
+        position: relative;
+        left: 140px;
+        top: 60px;
+        border-radius: 0.2rem;
+        border-style: solid;
+      }
+      #card_img1 {
+        height: 430px;
+        width: 715px;
+        position: relative;
+        bottom: 2px;
+        left: 18px;
+      }
+      #details {
+        position: relative;
+        background: white;
+        height: 400px;
+        width: 1268px;
+        bottom: 250px;
+        left: 135px;
+        border-style:solid;
+      }
+      #col2 {
+        position: relative;
+        left: 800px;
+        bottom: 40px;
+      }
+      footer {
+        position: relative;
+        top: 5px;
+        width: 100%;
+        height: auto;
+        background-color: #263145;
+        color: white;
+        font-size: 23px;
+        text-align: center;
+        line-height: 50px;
+      }
+      hr {
+        position: relative;
+        bottom: 11px;
+        width: 100%;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div id="logo_top_bar">
+      <div id="logo">
+        <img src="logo.png" alt="My image" id="logo_img" />
+      </div>
+      <div id="top_bar">
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html"><span style="color: black;">Home</span></a>
+            </li>
+            <li>
+              <a href="aboutus.html"
+                ><span style="color: black;">About Us</span></a
+              >
+            </li>
+            <li>
+              <a href="carlist.html"><span style="color: black;">Cars</span></a>
+            </li>
+            <li>
+              <a href="login.html"><span style="color: black;">Login</span></a>
+            </li>
+            <li>
+              <a href="contactus.html"
+                ><span style="color: black;">Contact Us</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <hr>
+    
+    <div id="car_img">
+      <h1
+        style="
+          position: relative;
+          top: 25px;
+          left: 175px;
+          font-family: 'Manrope', sans-serif;
+        "
+      ></h1>
+      <img src="audiq3.jpg" id="card_img1" />
+    </div>
+    <div id="seller_info">
+      <h1
+        style="
+          position: relative;
+          top: 10px;
+          left: 100px;
+          font-family: 'Manrope', sans-serif;
+          text-decoration: underline;
+        "
+      >
+        Seller Description
+      </h1>
+      <h2
+        style="
+          position: relative;
+          top: 55px;
+          left: 25px;
+          font-family: 'Manrope', sans-serif;
+          color: black;
+        "
+      >
+        Name: Ramesh
+      </h2>
+      <h2
+        style="
+          position: relative;
+          top: 75px;
+          left: 25px;
+          font-family: 'Manrope', sans-serif;
+          color:black;
+        "
+      >
+        Email: ramesh123@gmail.com
+      </h2>
+      <h2
+        style="
+          position: relative;
+          top: 95px;
+          left: 25px;
+          font-family: 'Manrope', sans-serif;
+          color: black;
+        "
+      >
+        Phone no: 9911224455
+      </h2>
+    </div>
+
+    <div id="details">
+      <h1
+        style="
+          position: relative;
+          top: 8px;
+          left: 550px;
+         font-family: 'Manrope', sans-serif;
+         text-decoration:underline;
+        "
+      >
+        Details
+      </h1>
+      <div id="col1">
+        <span style="position: relative; top: 30px; left: 60px;"
+          ><h1 style="display: inline; position: relative; left: 50px;">
+            Brand
+          </h1>
+          <h1 style="display: inline; position: relative; left: 212px;">
+            Audi
+          </h1></span
+        >
+        <span style="position: relative; top: 100px; right: 105px;"
+          ><h1 style="display: inline; position: relative; left: 50px;">
+            Model
+          </h1>
+          <h1 style="display: inline; position: relative; left: 210px;">
+            Q3 TDI Quattro
+          </h1></span
+        >
+        <span style="position: relative; top: 168px; right: 408px;"
+          ><h1 style="display: inline; position: relative; left: 40px;">
+            Year
+          </h1>
+          <h1 style="display: inline; position: relative; left: 228px;">
+            2015
+          </h1></span
+        >
+        <span style="position: relative; top: 235px; right: 560px;"
+          ><h1 style="display: inline; position: relative; left: 53px;">
+            Fuel
+          </h1>
+          <h1 style="display: inline; position: relative; left: 239px;">
+            Diesel
+          </h1></span
+        >
+      </div>
+      <div id="col2">
+        <span style="position: relative; top: 30px; right: 140px;"
+          ><h1 style="display: inline; position: relative; left: 50px;">
+            Km Driven
+          </h1>
+          <h1 style="display: inline; position: relative; left: 170px;">
+            50,000km
+          </h1></span
+        >
+        <span style="position: relative; top: 100px; right: 420px;"
+          ><h1 style="display: inline; position: relative; left: 30px;">
+            Price
+          </h1>
+          <h1 style="display: inline; position: relative; left: 217px;">
+            ₹24,50,000
+          </h1></span
+        >
+        <span style="position: relative; top: 168px; right: 675px;"
+          ><h1 style="display: inline; position: relative; left: 30px;">
+            Transmission
+          </h1>
+          <h1 style="display: inline; position: relative; left: 110px;">
+            Automatic
+          </h1></span
+        >
+        <span style="position: relative; top: 235px; right: 1020px;"
+          ><h1 style="display: inline; position: relative; left: 20px;">
+            City
+          </h1>
+          <h1 style="display: inline; position: relative; left: 242px;">
+            Kolkata
+          </h1></span
+        >
+      </div>
+    </div>
+    <footer>
+        Copyright &copy;2020.All Rights Reserved.<br />
+      Follow us</br>
+      <img
+        src="https://img.icons8.com/cotton/64/000000/twitter.png"
+        width="40px"
+      />
+      <img
+        src="https://img.icons8.com/cotton/64/000000/instagram-new.png"
+        width="40px"
+      />
+      <img
+        src="https://img.icons8.com/cotton/64/000000/facebook.png"
+        width="40px"
+      />
+    </footer>
+  </body>
+</html>
